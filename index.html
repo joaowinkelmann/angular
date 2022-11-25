@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+<body ng-app="">
+
+
+
+    <label>Click me: <input type="checkbox" ng-model="checked" ng-init="checked=true" /></label><br/>
+    Show when checked:
+    <span ng-if="checked">
+      This is removed when the checkbox is unchecked.
+    </span>
+    
+    
+
+</body>
+</html>
